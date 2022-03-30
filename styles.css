@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./pro-card-bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+  padding: 10px;
+}
+
+img {
+  height: auto;
+}
+/* b2f9fc */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #39aea9;
+  width: 20rem;
+  margin: 100px auto;
+}
+
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-box {
+  padding: 20px;
+  color: #000;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.info {
+  margin-top: 5px;
+}
+
+.web-Developer {
+  color: #da1212;
+  font-weight: 500;
+}
